@@ -65,6 +65,7 @@ def runner
   until card_total >= 21
     hit?(card_total)
     display_card_total(card_total)
+    card_total
     prompt_user
     input = get_user_input
   end
