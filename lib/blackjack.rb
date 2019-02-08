@@ -66,8 +66,6 @@ def runner
     card_total = hit?(card_total)
     display_card_total(card_total)
     card_total
-    prompt_user
-    input = get_user_input
   end
 end_game
     display_card_total
